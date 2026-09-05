@@ -25,7 +25,6 @@ Both front-ends are thin wrappers around the same core engine, so a payload beha
 - [Limitations & Responsible Use](#limitations--responsible-use)
 - [Related Work & References](#related-work--references)
 - [Roadmap](#roadmap)
-- [License](#license)
 
 ---
 
@@ -275,7 +274,3 @@ See `docs/REFERENCES.md` for the full mapping table, direct links, and version-h
 ## Roadmap
 
 See `docs/ROADMAP.md` for the full list. Highlights: an optional LLM-as-judge secondary pass for the guardrail-bypass category (to move it off pure heuristic scoring), a GitHub Action template, multi-turn conversation payloads (true multi-turn, not the compressed single-prompt approximation used today), and a diff mode for comparing two scans of the same model after a prompt change.
-
-## License
-
-MIT. Built as a cybersecurity portfolio project — see `docs/REFERENCES.md` for full attribution to the frameworks and tools referenced throughout.
