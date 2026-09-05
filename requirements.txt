@@ -1,0 +1,14 @@
+# Runtime dependencies for the LLM Security & Prompt Injection Scanner.
+#
+# tkinter (the GUI toolkit) is NOT listed here because it ships with
+# Python itself on Windows/macOS installers. On some Linux
+# distributions it's packaged separately from the interpreter --
+# if `python run_gui.py` fails with "No module named 'tkinter'", run:
+#   Debian/Ubuntu:  sudo apt install python3-tk
+#   Fedora:         sudo dnf install python3-tkinter
+#   Arch:           sudo pacman -S tk
+#
+# Install with: pip install -r requirements.txt
+
+requests>=2.31.0        # HTTP client used by every adapter (Ollama + OpenAI-compatible)
+matplotlib>=3.7.0        # Analytics tab charts (embedded via TkAgg backend)
